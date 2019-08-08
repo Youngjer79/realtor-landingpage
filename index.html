@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/cab53fa7cb.js"></script>
+  <title>Home Buyers Guide</title>
+</head>
+<body>
+ <header class="hero">
+   <div class="hero-text">
+     <p>Download my free first-time home buying guide to:<p>
+   <h2>Buy Your First Home with Confidence</h2>
+   <p>(and save thousands).</p>
+   </div>
+ 
+ </header> 
+<section class="guide">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box">
+          <h4>Get the guide sent<br>to your inbox.</h4>
+          <a id="button" class="btn" href="#" >Get My Guide</a><br>
+          <p>By clicking 'Get the Guide' you agree to our<br> <a class="policy" href="#">Privacy Policy.</a> I'll send helpful home-buying <br> resources weekly.</p>
+        </div>
+      </div>
+      <div class="box-content">
+        <div class="col-md-12">
+          <h4>In this <b>free</b> home-buying guide, <br>
+          I'll teach you:</h4><br><br>
+          <ul>
+            <li>My proven strategy to lowering the seller's asking<br> price(without sacrificing your chances of getting the house).
+            </li>
+            <li>
+              How you can get the best lending rate with the<br> lowest minimum down payment.
+            </li>
+            <li>
+              Secrets to a successful home inspection(and how <br> to avoid future repairs).
+            </li>
+          </ul>
+        </div>
+      </div>     
+    </div>
+  </div>
+</section>
+<section id="meet" class="meet">
+  <div class="container">
+       <h4>Meet Clara</h4>
+      <img class="img-meet" src="https://static1.squarespace.com/static/5404a441e4b0a7034afcd1fc/572354a98a65e2945abef614/5be071c1562fa79e3ad1d032/1541435977009/Risa_Hall_1018_003.jpg" alt="">  
+  </div>
+  <div class="meet-content">
+    <i class="fas fa-quote-left"></i>
+  <p>With over 10 years of real estate experience, I'v learn numerous strategies to getting<br> my clients the best homes and saving them the most money in the process. I hope this<br> guide can help you, too!</p>
+  <i class="fas fa-quote-right"></i>
+  </div>
+  <div class="agent-name">
+  <p><span>Clara Smith</span> | Agent | Realty,Co.</p>
+  </div>
+  <p class="footer">&copy 2019 Realty Co. | Privacy Policy</p>
+</section>
+
+<div class="bg-modal">
+  <div class="modal-content">
+    <div class="top">  
+     <div class="close">+</div>
+    </div>
+    <form action="">
+      <h4>Complete this Form to Get Instant Access</h4>
+      <label for="email">E-mail</label><br>
+      <input type="text" placeholder="E-mail address"/><br>
+      <a href="#" class="btn1 btn-primary btn-lg btn-block">Sign Up</a> 
+      <br>
+      <p>Privacy Policy. We hate spam and promise to keep your email address safe</p>
+    </form>
+  </div>
+</div>
+
+
+<script>
+document.getElementById('button').addEventListener('click', function(){
+  document.querySelector('.bg-modal').style.display = 'flex';
+});
+
+document.querySelector('.close').addEventListener('click', function(){
+  document.querySelector('.bg-modal').style.display = 'none';
+});
+</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
