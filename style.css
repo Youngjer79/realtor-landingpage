@@ -15,28 +15,24 @@
 }
 
 .hero-text{
-  position: absolute;
-  margin: auto;
-  display: inline-block;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  margin-top: 9rem;
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem;
 }
 
 .hero-text h2{
-  font-weight: 500;
-  font-size: 4rem;
-  padding-left: 200px;
-  padding-right: 200px;
+  font-size: 5rem;
+  margin-top: 1rem;
 }
 
 .hero-text p{
-  font-weight: 600;
-  font-size:1.2rem;
-  line-height: .5;
-  margin: 0 0 2rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 /* Guide Section */
@@ -101,7 +97,7 @@ text-align: center;
 
 #meet{
   background-color: #e8eded;
-  margin: 50px 0;
+  margin-bottom: 0 auto;
 }
 
 .meet h4{
@@ -154,6 +150,10 @@ span{
   padding-top: 80px;
 }
 
+.footer p{
+	margin-top: 0;
+    margin-bottom: 0;
+}
 .bg-modal{
   width: 100%;
   height: 100%;
@@ -210,4 +210,29 @@ form h4{
 form p{
   font-size: .8em;
 }
+
+@media(min-width: 576px){
+	.hero-text h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+	.guide {
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 768px) {
+	  .hero-text h2 {
+		font-size: 3.5rem;
+		margin-top: 1rem;
+	}
+}
+
+@media (min-width: 992px) {
+	 .hero-text h2 {
+		font-size:  5rem;
+		margin-top: 1rem;
+	}
+}
+
 
