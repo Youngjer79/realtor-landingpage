@@ -212,6 +212,10 @@ form p{
 }
 
 @media(min-width: 576px){
+hero{
+  height: 100vh;
+  width: 100%;
+}
 	.hero-text h2 {
     font-size: 2.5rem;
     margin-top: 1rem;
