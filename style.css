@@ -211,11 +211,43 @@ form p{
   font-size: .8em;
 }
 
-@media(min-width: 576px){
-hero{
-  height: 100vh;
-  width: 100%;
+@media(min-width: 320px){
+	.hero-text h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+	}
+	.hero-text p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+	}
+	.guide {
+		margin-top: 10px;
+	}
+	.box{
+		width: 375px;
+		height: 375px;
+	}
+	.btn{
+		padding: 15px 55px;
+	}
+	.box-content li {
+    font-size: 1.2rem;
+	padding-right: 30px;
+    padding-left: 30px;
+    list-style: none;
+	}
+	.img-meet {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+	}
+	p{
+	   font-size: .9em;
+	}
+	
 }
+
+@media(min-width: 576px){
 	.hero-text h2 {
     font-size: 2.5rem;
     margin-top: 1rem;
@@ -230,12 +262,21 @@ hero{
 		font-size: 3.5rem;
 		margin-top: 1rem;
 	}
+	.hero-text{
+		padding: 10rem;
+	}
 }
 
 @media (min-width: 992px) {
 	 .hero-text h2 {
 		font-size:  5rem;
 		margin-top: 1rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	 .hero-text{
+		padding: 15rem;
 	}
 }
 
