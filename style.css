@@ -274,10 +274,9 @@ form p{
 	}
 }
 
-@media (min-width: 1024px) {
-	 .hero-text{
-		padding: 5rem;
-	}
+@media (min-width: 1024px)
+.hero-text {
+    padding: 5rem;
 }
 
 
