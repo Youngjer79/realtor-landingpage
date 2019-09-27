@@ -259,8 +259,8 @@ form p{
 
 @media (min-width: 768px) {
 	  .hero-text h2 {
-		font-size: 3.5rem;
-		margin-top: 1rem;
+		    font-size: 2.5rem;
+   		    margin-top: -3rem;
 	}
 	.hero-text{
 		padding: 10rem;
@@ -269,8 +269,8 @@ form p{
 
 @media (min-width: 992px) {
 	 .hero-text h2 {
-		    font-size: 2.5rem;
-  		    margin-top: -3rem;
+		    font-size: 3.5rem;
+  		    margin-top: 1rem;
 	}
 }
 
